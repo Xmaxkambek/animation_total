@@ -32,14 +32,15 @@ class _widget05State extends State<widget05> {
           ),
         ),
         TextButton(
-            onPressed: () {
-              setState(() {
-                _fontsize = _first ? 90 : 60;
-                _color = _first ? Colors.blue : Colors.red;
-                _first = !_first;
-              });
-            },
-            child: Text('switch'))
+          onPressed: () {
+            setState() {
+              _fontsize = _first ? 90 : 60;
+              _color = _first ? Colors.blue : Colors.red;
+              _first = !_first;
+            }
+          },
+          child: Text('switch'),
+        ),
       ],
     );
   }
